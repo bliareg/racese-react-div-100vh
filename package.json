@@ -1,5 +1,5 @@
 {
-  "name": "racese-react-div-100vh",
+  "name": "racese-react-mobile-height-wrapper",
   "version": "0.1.0",
   "description": "A React component that aims to solve '100vh' issue in mobile browsers",
   "main": "lib/index.js",
@@ -54,7 +54,6 @@
       "git add"
     ]
   },
-  "author": "Mikhail Vasin <michaelvasin@gmail.com>",
   "homepage": "https://github.com/mvasin/react-div-100vh",
   "repository": {
     "type": "git",
