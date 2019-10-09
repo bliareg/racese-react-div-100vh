@@ -24,8 +24,9 @@ export default class Div100vh extends React.Component {
   }
 
   render() {
-    const { as: Element = 'div', ...props } = this.props;
+    const { as: Element = 'div', disableHeightBehavior, ...props } = this.props;
+    const styleProps = disableHeightBehavior ? {} : { style: this.state.style };
 
-    return <Element {...props} style={this.state.style} />;
+    return <Element {...props} {...styleProps} />;
   }
 }
